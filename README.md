@@ -102,6 +102,7 @@ The following API routes are available:
 
 ## Criteria
 
+```bash
 - GIVEN a functional Express.js API
 - WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 - THEN I am able to connect to a database using Sequelize
@@ -113,7 +114,7 @@ The following API routes are available:
 - THEN the data for each of these routes is displayed in a formatted JSON
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 - THEN I am able to successfully create, update, and delete data in my database
-
+```
 ## Walkthrough
 
 **💿** [Ecommerce 🎥](https://drive.google.com/file/d/1Cx8UgidWp_lemlRgvVr0FQJoc5NqHrO9/view)

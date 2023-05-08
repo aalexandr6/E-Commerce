@@ -1,4 +1,8 @@
-# E-Commerce
+# Object-Relational Mapping (ORM) E-Commerce Back End
+
+## Object-Relational Mapping
+
+Object-relational mapping (ORM) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase "an ORM".
 
 ## Project Description
 
@@ -27,6 +31,14 @@ npm start
 - `models` - The code for the database models is located here. This file is imported into `api` folder.
 
 - `seeds` - The code to seed the database with test data is located here. This file is imported into `server.js`.
+
+## DOTENV
+
+zero-dependency module that loads environment variables from a .env file into process.env.
+
+## MySQL2
+
+MySQL client for Node.js with focus on performance. Supports prepared statements, non-utf8 encodings, binary log protocol, compression, ssl much more.
 
 ## Sequelize
 

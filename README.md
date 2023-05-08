@@ -16,7 +16,7 @@ To install necessary dependencies, run the following command:
 myql -u root -p
 exit;
 npm install
-npm run seeds
+npm run seed
 npm start
 ```
 
